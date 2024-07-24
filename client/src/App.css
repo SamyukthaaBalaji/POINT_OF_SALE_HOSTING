@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+}
+/* App.css */
+
+.app-container {
+  display: flex;
+  min-height: 85vh;
+  width: 97%;
+  position: fixed; /* or sticky */
+  top: 0;
+  margin: 20px;
+  background-color: rgb(216, 216, 216);
+  border-radius: 10px;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2),
+    -3px -3px 10px rgba(255, 255, 255, 0.5);
+}
+.sidebar-container {
+  background-color: black;
+}
+.main-container {
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  margin-left: 10px;
+}

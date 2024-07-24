@@ -1,0 +1,81 @@
+.sidebar-outer {
+  position: sticky;
+  height: 94vh;
+  background-color: #ffffff;
+  width: 15%;
+  top: 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.sidebar-inner-top {
+  text-align: center;
+}
+
+.sidebar-user-image {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.sidebar-user-role {
+  font-size: 12px;
+  color: gray;
+}
+
+.sidebar-inner-middle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sidebar-item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  width: 100%;
+  color: #333;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.sidebar-item:hover {
+  background-color: #0031d2;
+  color: #f0f4f8;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar-item span {
+  margin-left: 10px;
+}
+
+.sidebar-inner-bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sidebar-icons {
+  display: flex;
+  justify-content: center;
+  gap: 10px; /* Add gap to space out the icons */
+  margin: 20px;
+}
+
+.sidebar-icons .fa {
+  margin: 0 10px; /* Add horizontal margin to space out the bottom icons */
+  color: #333;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.sidebar-icons .fa:hover {
+  color: #004386;
+}

@@ -1,0 +1,115 @@
+.dashboard {
+  background-color: #ffffff;
+  width: 1300px;
+  height: 88vh;
+  border-radius: 20px;
+  overflow-x: auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.top-boxes {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+}
+
+.box {
+  background: #fff;
+  color: #333;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+  width: 22%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-bottom: 5px solid;
+  transition: transform 0.2s, border-color 0.2s;
+  position: relative;
+}
+
+.box h3 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.box p {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 0;
+}
+
+.box .icon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 1.5em;
+}
+
+.box:hover {
+  transform: translateY(-5px);
+}
+
+.new-accounts {
+  border-color: #3b82f6;
+}
+
+.total-expenses {
+  border-color: #f87171;
+}
+
+.company-value {
+  border-color: #f59e0b;
+}
+
+.new-employees {
+  border-color: #10b981;
+}
+
+.charts-container {
+  display: flex;
+  gap: 20px;
+}
+
+.chart-container {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.bar-chart {
+  flex: 0.7;
+}
+
+.pie-charts {
+  display: flex;
+  flex-direction: column;
+
+  flex: 0.2;
+}
+
+.pie-chart {
+  height: 300px;
+  width: 100%;
+  margin: 10px;
+}
+
+.line-chart {
+  width: 100%;
+}
+
+.additional-charts {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.doughnut-chart,
+.radar-chart,
+.polar-area-chart {
+  flex: 1;
+  min-width: 350px;
+  height: 300px;
+}
